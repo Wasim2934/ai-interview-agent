@@ -13,7 +13,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://ai-interview-agent-5rom.onrender.com",
     credentials: true,
   }),
 );
