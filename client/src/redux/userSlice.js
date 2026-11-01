@@ -9,7 +9,6 @@ const userSlice = createSlice({
     reducers:{
         setUserData:(state,action)=>{
             state.userData = action.payload
-
         }
     }
 })
